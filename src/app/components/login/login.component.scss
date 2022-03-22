@@ -1,0 +1,52 @@
+
+.button {
+	background-color: rgb(212, 112, 66);
+	border:wheat;
+	color: rgb(255, 255, 255);
+	padding: 10px 20px;
+	text-align: center;
+	
+	// margin: 6px 2px;
+	cursor: pointer;
+	border-radius: 16px;
+    width: 500px;
+  }
+.container {
+    display:grid;
+    align-items: center;
+ 
+    gap: 100px;
+    background:linear-gradient(#05080ac2,#223C50);
+    padding: 100px;
+    
+    padding-right:0px;
+    margin-top: 50px;
+   margin-bottom: 30px;
+  }
+  .what{
+      margin-left: 250px;
+
+  }
+  
+.grid-container > div {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 500px ;
+    font-size: 40px;
+  }
+
+input[type="text"] {
+    width: 500px;
+    height: 50px;
+}
+input[type="password"] {
+    width: 500px;
+    height: 50px;
+}
+label{
+    color: aliceblue;
+    padding-top: 0px;
+}
+h1{color: whitesmoke;
+font-family:'Times New Roman', Times, serif;
+align-content: flex-end;}
