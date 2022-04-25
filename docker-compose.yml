@@ -1,0 +1,13 @@
+version: '2' 
+
+services:
+  angular: 
+    build: pass
+    ports:
+      - "4303:4303" 
+
+  express: 
+    build: express-server 
+    ports:
+      - "4304:4304" 
+      
